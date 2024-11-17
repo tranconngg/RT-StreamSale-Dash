@@ -17,7 +17,7 @@ Technology used: Kafka,Spark Structured Streaming, Postgresql, Mongodb, Superset
 
 Data Pipeline:
 
-![Data pipeline](images/datapipline.png)
+![Data pipeline](images/datapipeline.png)
 
 Data Source:
 
