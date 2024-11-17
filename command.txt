@@ -1,0 +1,13 @@
+spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.0,org.apache.kafka:kafka-clients:3.5.0 Structured_Streaming.py
+
+spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.0,org.apache.kafka:kafka-clients:3.5.0,org.mongodb.spark:mongo-spark-connector_2.12:10.4.0 --jars /home/jovyan/work/lib/postgresql-42.7.4.jar Structured_Streaming.py
+
+spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.0,org.apache.kafka:kafka-clients:3.5.0 Producer_send_data.py
+
+#docker exec -it superset superset fab create-admin
+# docker exec -it superset superset db upgrade
+# docker exec -it superset superset init
+
+#docker cp /path/to/your/orders.csv superset_db:/orders.csv
+#docker exec -it superset_db psql -U superset -d superset
+#COPY Sales FROM '/Sale.csv' DELIMITER ',' CSV HEADER;
