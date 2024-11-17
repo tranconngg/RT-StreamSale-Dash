@@ -15,9 +15,9 @@ Visualization: The analysis results will be visualized using Superset, making th
 
 Technology used: Kafka,Spark Structured Streaming, Postgresql, Mongodb, Superset, Docker
 
-Data Pipline:
+Data Pipeline:
 
-![Data pipline](images/datapipline.png)
+![Data pipeline](images/datapipline.png)
 
 Data Source:
 
